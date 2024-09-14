@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Krona+One&family=Montserrat:ital@0;1&family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+:root {
+    --cor-primaria: #000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-quartenaria: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    box-sizing: border-box;
+}
+.elementopai {
+    display: flex;
+    padding: 10% 15%;
+    justify-content: center;
+    gap: 82px;
+    align-items: center;
+}
+.elementofilho {
+    width: 33%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.destacar {
+    color: var(--cor-terciaria);
+}
+.titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+.paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+
+}
+.containerbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.button {
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    width: 50%;
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.img1 {
+    width: 33%;
+    height: 10%;
+}
+.titlebutton {
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+.button:hover {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+}
+.rodape {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    font-family:var(--fonte-secundaria);
+    padding: 26px;
+    text-align: center;
+    font: weight 400px; ;
+
+}
+.topico {
+    color: var(--cor-terciaria);
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+.cabeçalho {
+    padding: 2% 0 0 26.5%;
+}
+.menu {
+    display: flex;
+    gap: 80px;
+}
+.topico {
+    text-decoration: none;
+}
+.topico:hover {
+   color: var(--cor-secundaria);
+   background-color:var(--cor-terciaria);
+   border-radius: 7px;
+}
+
+/* Estilização do meu curriculo */
+
+.curriculo {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    margin: 5% 25% 5% 25%;
+    border-radius: 10px;
+    padding-bottom: 2%;
+    
+}
+.curriculosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+    padding-top: 4%;
+}
+.curri {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.titlecurri {
+    font-size: 3.43rem;
+}
+.paragrafocurri {
+    font-size: 1.1rem;
+
+}
+.titlecurri2 {
+    font-size: 1.87rem;
+}
+.li {
+    font-size: 1.43rem;
+}
+.titlecurri3 {
+    font-size: 1.62rem;
+}
+.paragrafocurri2 {
+    font-size: 1.43rem;
+}
+
+@media (max-width: 1200px) {
+    .cabeçalho {
+        padding: 10%;
+    }
+
+    .elementopai {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .elementofilho {
+       width: auto;
+    }
+
+}
