@@ -179,4 +179,14 @@ body {
         gap: 20px;
         justify-content: center;
     }
+    .curriculo {
+        margin: 5%;
+    }
+    .curriculosection {
+        width: auto;
+        text-align: center;
+    }
+    .curriculosection2 {
+        width: auto;
+    }
 }
