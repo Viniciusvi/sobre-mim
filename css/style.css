@@ -174,3 +174,9 @@ body {
     }
 
 }
+@media (max-width: 500px) {
+    .menu {
+        gap: 20px;
+        justify-content: center;
+    }
+}
